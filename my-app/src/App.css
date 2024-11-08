@@ -9,13 +9,12 @@
 .content-container {
   display: flex;
   width: 100%;
-  max-width: 1250px;
+  max-width: 1200px;
   font-size: 13px;
   flex-wrap: wrap;
   background-color: #ffffffb1;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.995);
-  width: 1500px;
 }
 
 /* Estilos para la navegación de los botones */
@@ -57,7 +56,7 @@
 }
 
 .menu-btn:active {
-  background-color: #2e7d32;
+  background-color: #08284c;
   transform: scale(1);
 }
 
