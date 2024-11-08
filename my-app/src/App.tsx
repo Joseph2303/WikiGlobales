@@ -206,7 +206,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Globalización</h1>
+        <h1 className='Hola'>Globalización</h1>
         
         {/* Contenedor para los botones y la información */}
         <div className="content-container">

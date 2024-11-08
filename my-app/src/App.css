@@ -3,23 +3,26 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
-  background-color: #f5f5f5;
 }
 
 /* Contenedor de la información y el menú */
 .content-container {
   display: flex;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1250px;
+  font-size: 13px;
   flex-wrap: wrap;
+  background-color: #ffffffb1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.995);
+  width: 1500px;
 }
 
 /* Estilos para la navegación de los botones */
 .button-nav {
-  flex: 1;
+  flex: 0;
   margin-right: 10px;
-  min-width: 100px;
+  min-width: 200px;
 }
 
 /* Lista de botones */
@@ -36,20 +39,20 @@
 /* Estilos para los botones - ahora más pequeños */
 .menu-btn {
   padding: 8px 15px;  /* Hacemos los botones más pequeños ajustando el padding */
-  background-color: #388e3c;
+  background-color: #728fee;
   border: none;
   color: white;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  font-size: 14px;  /* Reducimos el tamaño de la fuente */
+  font-size: 15px;  /* Reducimos el tamaño de la fuente */
   width: 100%;  /* Los botones ocupan todo el ancho disponible */
   box-sizing: border-box;  /* Asegura que el padding no afecte el tamaño total del botón */
 }
 
 /* Efecto hover para los botones */
 .menu-btn:hover {
-  background-color: #45a049;
+  background-color: #3e69f4;
   transform: scale(1.1);
 }
 
@@ -61,16 +64,13 @@
 /* Estilos para la información */
 .info-section {
   flex: 3;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
   flex-grow: 1;
 }
 
 /* Estilo para títulos */
 .info-section h2 {
-  color: #388e3c;
+  color: #3f84d2;
 }
 
 /* Estilo de la lista */
@@ -108,4 +108,10 @@
     padding: 6px 12px;  /* Aseguramos que el botón sea pequeño también en pantallas muy pequeñas */
     font-size: 12px;
   }
+}
+
+
+.Hola{
+  color: #ffffff;
+  text-align: center;
 }
